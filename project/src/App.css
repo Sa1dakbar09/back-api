@@ -1,0 +1,123 @@
+header {
+    background-color: rgb(103, 154, 236);
+    padding: 2vw 4vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header a {
+    color: #fff;
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 2rem;
+}
+
+header button {
+    background-color: green;
+    color: #fff;
+    font-size: 17px;
+    padding: 10px 20px;
+    border: 2px solid transparent;
+    border-radius: 5px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all .3s ease;
+}
+
+header button:hover {
+    background-color: #fff;
+    border-color: green;
+    color: green;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 2vw;
+}
+
+table {
+    border: 1px solid black;
+    width: 100%;
+}
+
+table th,
+td {
+    border: 1px solid #333;
+    text-align: center;
+    padding: 10px;
+}
+
+.Modal {
+    margin: -100px 0 0 0;
+    width: 100%;
+    height: 300vh;
+    position: fixed;
+    z-index: 100000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.overGround {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: #444;
+    opacity: .7;
+    filter: contrast(4px);
+}
+
+.modal {
+    padding: 30px;
+    background-color: #fff;
+    position: absolute;
+    top: 150px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.modal form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.modal input {
+    width: 300px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid rgb(103, 154, 236);
+    color: rgb(103, 154, 236);
+    font-size: 16px;
+    text-indent: 5px;
+    padding: 10px;
+}
+
+.modal input:focus {
+    border-bottom: 1px solid transparent;
+    box-shadow: rgb(76, 76, 221) 0px 1px 0px, rgba(80, 80, 224, 0.931) 0px 0px 8px;
+}
+
+.modal button {
+    background-color: rgb(40, 115, 235);
+    color: #fff;
+    color: #fff;
+    font-size: 17px;
+    padding: 10px 20px;
+    border: 2px solid transparent;
+    border-radius: 5px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all .3s ease;
+}
+
+.modal button:hover {
+    background-color: #fff;
+    border-color: rgb(40, 115, 235);
+    color: rgb(40, 115, 235);
+}
